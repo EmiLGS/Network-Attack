@@ -1,5 +1,5 @@
 import sys
-import syn_flood_attack,ping_of_death_attack,icmp_flood_attack,fragmentation_attack,dos_attack
+from attacks import syn_flood_attack,ping_of_death_attack,icmp_flood_attack,fragmentation_attack,dos_attack
 
 def print_menu():
     print("""
